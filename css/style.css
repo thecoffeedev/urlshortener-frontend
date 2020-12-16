@@ -1,0 +1,9 @@
+.chunk {
+    word-wrap: break-word;
+    max-width: 300px;
+}
+
+.chunk2 {
+    word-wrap: break-word;
+    max-width: 150px;
+}
