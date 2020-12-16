@@ -309,7 +309,7 @@ function tableLayout(data){
   data.forEach(element => {
     let tr = document.createElement("tr");
     let td1 = document.createElement("td");
-    td1.innerHTML = `<a href='http://127.0.0.1:5500/t.html?id=${element.shortString}' target="_blank">http://127.0.0.1:5500/t.html?id=${element.shortString}</a>`;
+    td1.innerHTML = `<a href='https://url-short-101.netlify.app/t.html?id=${element.shortString}' target="_blank">https://url-short-101.netlify.app/t.html?id=${element.shortString}</a>`;
     td1.classList.add("chunk2")
     let td2 = document.createElement("td");
     td2.innerHTML = element.target;
